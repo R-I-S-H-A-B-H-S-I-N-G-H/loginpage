@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", sans-serif;
+}
+.container {
+	background: #ffffff;
+	height: 100vh;
+	display: flex;
+	justify-content: space-between;
+}
+h1 {
+	color: #00151d;
+}
+h5 {
+	color: #859094;
+}
+form {
+	/* background: lightblue; */
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
+	margin: 1rem;
+	margin-bottom: 0.2rem;
+}
+input {
+	border: none;
+	font-weight: bold;
+	padding: 0.8rem;
+	border-radius: 0.2rem;
+	margin: 0.4rem;
+	margin-top: 0.1rem;
+	border: solid #d1d1d1 0.12rem;
+}
+button {
+	border: none;
+	padding: 0.8rem;
+	margin: 0.4rem;
+	margin-top: 0.1rem;
+	margin-bottom: 0.1rem;
+	background: #023047;
+	color: white;
+	font-weight: bold;
+	border-radius: 0.2rem;
+}
+.left {
+	flex: 2.5;
+	/* background: lightcoral; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.right {
+	flex: 5;
+	background: #023047;
+}
+.options {
+	/* background: lightblue; */
+	margin: 0rem 1rem;
+	padding: 0.2rem;
+	width: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.options-left {
+	display: flex;
+	color: #4d4e4f;
+}
+.ckbox {
+	background: #023047;
+	accent-color: #023047;
+}
+a {
+	text-decoration: none;
+	color: #4d4e4f;
+	/* font-size: 0.9rem; */
+}
+.ckbox,
+button:hover {
+	cursor: pointer;
+}
+@media only screen and (max-width: 800px) {
+	.right {
+		/* background: blue; */
+		display: none;
+	}
+}
